@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/public/js/jquery.min.js"></script>
+    <script src="src/script.js"></script>
+    <title>Lboard api client</title>
+</head>
+<body>
+    <h1>API Lboard Client</h1>
+    <div id="posts">
+        <h2>Все объявления:</h2>
+        <div class="list">---</div>
+    </div>
+    <div id="post">
+        <h2>Объявление по id:</h2>
+<!--        <p>введите id объявления из списка выше</p>-->
+        <label for="post_id">введите id объявления из списка выше</label>
+        <input type="number" id="post_id">
+        <button>Показать</button>
+        <div class="list">---</div>
+    </div>
+
+    <div id="categories">
+        <h2>Все категории:</h2>
+        <div class="list">---</div>
+    </div>
+    <div id="category">
+        <h3>Категория по id:</h3>
+        <label for="category_id">введите id категории (от 1 до 4)</label><input type="number" id="category_id">
+        <button>Показать</button>
+        <div class="list">---</div>
+    </div>
+
+    <div id="category_posts">
+        <h3>Объявления в категории:</h3>
+        <label for="category_id_posts">введите id категории (от 1 до 4)</label>
+        <input type="number" id="category_id_posts">
+        <button>Показать</button>
+        <div class="list">---</div>
+    </div>
+</body>
+</html>

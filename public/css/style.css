@@ -1,0 +1,46 @@
+a {
+    text-decoration: none !important;
+}
+.logo-img {
+    width: 100px;
+}
+
+input, button {
+    margin-top: 10px !important;
+}
+
+.account_item__img--preview {
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.account_item__row td {
+    vertical-align: middle;
+}
+
+.card-img-detail,
+.detail__photo {
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+}
+
+.card-img-list {
+    height: 300px;
+}
+
+.detail_photos--gallery {
+    height: 70px;
+}
+
+.list_photos--gallery {
+    height: 50px;
+}
+#detail__other-items--category {
+    margin-top: 120px;
+}
+.demo_img = {
+    width: 200px;
+}
