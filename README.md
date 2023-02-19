@@ -89,9 +89,3 @@ php artisan admin:install
 
 ### тестовое клиентское приложение
 /apiClient/index.html, каталог в репозитории - /apiClient
-
-## Демо-пакет
-
-[репозиторий в Gitlab DW](https://gitlab.ddemo.ru/v.balabanov/laravel_demo_package 'DW Gitlab')
-
-_не работает в IE!_
